@@ -1,0 +1,11 @@
+/* bugSolution.css */
+
+/* Instead of conflicting selectors, be more specific in selectors or use !important as a last resort.*/
+#myElement {
+  color: blue !important;
+}
+
+/* Or, restructure your CSS to avoid specificity conflicts. For example, use more specific selectors to ensure that your intended styles are applied.*/
+.container #myElement {
+  color: blue;
+}
