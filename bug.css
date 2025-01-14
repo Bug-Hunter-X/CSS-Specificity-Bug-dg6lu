@@ -1,0 +1,1 @@
+The CSS specificity rules can lead to unexpected results when styles from different selectors conflict.  For example, an inline style might override a style from an internal stylesheet, which in turn might override a style from an external stylesheet.  Debugging this requires careful examination of the CSS cascade and understanding how specificity is calculated.
