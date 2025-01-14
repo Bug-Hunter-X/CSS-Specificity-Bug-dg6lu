@@ -1,0 +1,2 @@
+# CSS Specificity Bug
+This repository demonstrates a common CSS bug related to specificity conflicts.  The `bug.css` file contains conflicting styles that result in unexpected rendering.  The `bugSolution.css` file provides a solution by clarifying the selector priorities or using the `!important` rule judiciously (though `!important` should be used sparingly).
